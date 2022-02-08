@@ -1,0 +1,135 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800italic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch:700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script:regular');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+@font-face {
+    font-family: "Mint Condition";
+    src: url("../fonts/MintCondition-Bold.woff2") format("woff2"), url("../fonts/MintCondition-Bold.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Red October";
+    src: url("../fonts/RedOctoberLight.woff2") format("woff2"), url("../fonts/RedOctoberLight.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    font-family: "Red October";
+    font-size: 20px;
+    color: rgb(243, 183, 32);
+}
+p.open_sans {
+    font-family: "Open Sans", sans-serif;
+    font-size: 70px;
+    color: blueviolet;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 1px 1px 20px rgb(197, 29, 29);
+}
+ul.nav {
+    font-family: "Chakra Petch", "Open Sans", sans-serif;
+    font-size: 50px;
+    color: aqua;
+    text-align: left;
+}
+.item.item2 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 30px;
+    text-align: right;
+    color: darkorange;
+    text-shadow: 2px 4px 1px rgb(37, 19, 116);
+    }
+#section_1, #section_2, #section_3, #section_4, #section_5, #section_6  {
+    font-family: "Courgette", cursive;
+    font-size: 40px;
+    color: brown;
+    text-align: center;
+    text-decoration: line-through;
+}
+h1 {
+    font-size: 25px;
+    color: blueviolet;
+    text-align: center;
+    text-decoration: overline;
+    font-weight: 900;
+    text-shadow: 3px 5px 22px rgb(18, 19, 16);
+}
+main p {
+    font-size: 20px;
+    color: darksalmon;
+    text-decoration: underline;
+    font-style: italic;
+}
+.points {
+    font-family: "Comforter", cursive;
+    font-size: 30px;
+    color: deeppink;
+    font-weight: 700;
+    text-shadow: 1px 3px 2px rgb(227, 243, 7);
+    text-indent: 25px;
+}
+.item3 {
+    font-family: "Supermercado One", cursive;
+    font-weight: 500;
+    color: forestgreen;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+.item4 {
+    color: darkcyan;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    word-spacing: 15px;
+}
+.item5 {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    color: aqua;
+    text-transform: capitalize;
+    text-shadow: 10px 3px 5px rgb(81, 85, 21);
+}
+.points2 {
+    font-family: "Festive", cursive;
+    font-size: 23px;
+    color: blueviolet;
+    text-indent: 30px;
+}
+.points3 {
+    font-size: 15px;
+    color: rgb(130, 228, 143);
+    text-indent: 30px;
+    letter-spacing: 5px;
+
+}
+.item6 {
+    font-family: "Yellowtail", cursive;
+    font-size: 25px;
+    color: rgb(40, 52, 165);
+    text-align: right;
+    text-shadow: 10px 3px 3px rgb(22, 207, 31);
+
+}
+.item7 {
+    font-family: "Mint Condition" ;
+    color: rgb(96, 161, 187);
+    text-decoration: underline;
+
+}
+h3 {
+    font-size: 40px;
+    color: rgb(110, 19, 88);
+    text-align: center;
+}
